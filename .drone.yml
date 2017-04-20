@@ -1,4 +1,4 @@
 pipeline:
   docker:
-    image: test/droneHttpTest
-    dockerfile: Dockerfile    
+    image: test/dronehttptest
+    dockerfile: Dockerfile
