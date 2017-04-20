@@ -4,5 +4,5 @@ pipeline:
     dockerfile: Dockerfile
     daemon.insecure : true
     docker.registry: http://DESKTOP-TLPFAG6:5000/v2/
-    repo: test/dronehttptest
+    repo: DESKTOP-TLPFAG6:5000/test/dronehttptest
     tag: lastest
