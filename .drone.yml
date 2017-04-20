@@ -2,7 +2,7 @@ pipeline:
   docker:
     image: plugins/docker
     dockerfile: Dockerfile
-    daemon.insecure : true
-    docker.registry: http://DESKTOP-TLPFAG6:5000/v2/
-    repo: DESKTOP-TLPFAG6:5000/test/dronehttptest
+    insecure : true
+    registry: DESKTOP-TLPFAG6:5000
+    repo: DESKTOP-TLPFAG6:5000/test
     tag: lastest
