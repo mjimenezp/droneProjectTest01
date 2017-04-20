@@ -1,4 +1,6 @@
 pipeline:
   docker:
-    image: test/dronehttptest
+    image: plugins/docker
     dockerfile: Dockerfile
+    repo: test/dronehttptest
+    tag: lastest
