@@ -6,3 +6,5 @@ pipeline:
     registry: localregistry:5000
     repo: localregistry:5000/test
     tag: lastest
+    build_args:
+        -network=bridge
