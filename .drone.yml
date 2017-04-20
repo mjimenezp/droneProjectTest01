@@ -2,5 +2,6 @@ pipeline:
   docker:
     image: plugins/docker
     dockerfile: Dockerfile
-    repo: http://DESKTOP-TLPFAG6:5000/test/dronehttptest
+    daemon.insecure : true
+    repo: DESKTOP-TLPFAG6:5000/test/dronehttptest
     tag: lastest
