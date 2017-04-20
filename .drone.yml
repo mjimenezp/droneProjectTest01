@@ -1,0 +1,4 @@
+pipeline:
+  docker:
+    image: test/droneHttpTest
+    dockerfile: Dockerfile    
