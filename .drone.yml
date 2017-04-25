@@ -5,5 +5,5 @@ pipeline:
     dockerfile: Dockerfile
     insecure : true
     registry: ec2-52-88-58-236.us-west-2.compute.amazonaws.com:5000
-    repo: ec2-52-88-58-236.us-west-2.compute.amazonaws.com:5000/test
+    repo: ec2-52-88-58-236.us-west-2.compute.amazonaws.com:5000/dronetest01
     tag: 0.2
